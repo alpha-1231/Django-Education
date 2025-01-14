@@ -1,0 +1,44 @@
+*{
+    background-color: aquamarine;;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    background-color: blue;
+border-radius: 2px;;
+
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    background-color: lightblue;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+    &:hover{
+        background-color: darkblue;
+        color: antiquewhite;
+    }
+    &:focus{
+        background-color: darkblue;
+        box-shadow: 2px 2px 5px rgba(0,0,0,1);
+    }
+    &:active{
+        background-color: darkblue;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+    }
+    & + label{
+        margin-top: 10px;
+    }
+    & + input[type="radio"], & + input[type="checkbox"]{
+        margin-top: 5px;
+    }
+}

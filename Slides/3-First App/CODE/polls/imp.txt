@@ -1,0 +1,4 @@
+Username (leave blank to use 'vishw'): admin
+Email address: admin@gmail.com
+Password: root
+Password (again):root
